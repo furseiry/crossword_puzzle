@@ -57,7 +57,7 @@ impl Component for Cell {
                             }</div>
                             <div class="cell_value">{
                                 if self.display_value != String::new() {
-                                    html!{&self.display_value}
+                                    html!{&self.correct_value}
                                 } else {
                                     html!{<br/>}
                                 }

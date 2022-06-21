@@ -52,7 +52,10 @@ impl Component for App {
                         <button class="check_button" onclick={ctx.link().callback(|_| ())}>{"Check puzzle"}</button>
                     </>}
                 } else {
-                    html!{}
+                    html!{<div>
+                        {"Congratulations, you did it!"}<br/>
+                        <a href="https://en.pronouns.page/@MEE6">{"Here you go :)"}</a>
+                    </div>}
                 }
             }
         }
