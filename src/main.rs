@@ -53,8 +53,7 @@ impl Component for App {
                     </>}
                 } else {
                     html!{<div>
-                        {"Congratulations, you did it!"}<br/>
-                        <a href="https://en.pronouns.page/@MEE6">{"Here you go :)"}</a>
+                        {"Congratulations, you did it!"}
                     </div>}
                 }
             }
